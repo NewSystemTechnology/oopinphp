@@ -72,8 +72,3 @@ $obj->setUserRoot('root');
 $obj->setPassword('');
 $obj->setDBName('testMysqlClass');
 echo $obj->connect();
-//if (!$obj->connect()) {
-//    die("Sorry , we having some issues");
-//}
-//$obj->query("INSERT INTO `go`(`name`, `bio`, `date`) "
-//        . "VALUES (,,)");
